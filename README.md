@@ -1,2 +1,3 @@
-# Advanced Machine Learning Labs!!
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Azadshokrollahi/Advance-machine-learning/blob/develop/0-basics_intro/Copy_of_1_datasets_dataloaders.ipynb)
+# Advanced Machine Learning (DA633E-TS106) Labs from the teachers
+
+Setup without the expensive datasets, plus pixi setup and the labs recovered from history (will update them if new ones come).
