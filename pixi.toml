@@ -5,8 +5,8 @@ platforms = ["linux-64", "win-64"]
 
 [tasks]
 server = "jupyter server"
-check-diff = "git diff upstream/develop~1 upstream/develop~2 > diff.patch"
-apply-diff = "git apply diff.patch && rm diff.patch"
+check-diff = "git diff upstream/develop upstream/develop~1 > diff.patch"
+apply-diff = "patch -R -p1 < diff.patch"
 
 [dependencies]
 python = ">=3.13.3,<3.14"
